@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.border {
+    background-color: black;
+    padding: 0 3cm;
+    text-align: center;
+    border-left: 3cm solid black;
+}
+
+img {
+    max-width: 100%;
+    max-height: 80vh;
+    height: auto;
+    margin: 20px 0;
+}
+
+p {
+    color: rgb(255, 153, 0);
+    font-size: 18px;
+    text-align: center;
+}
+
+.stahnout-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db81;
+    color: rgb(255, 255, 255);
+    padding: 30px 10px; /* 30px na výšku a 10px na délku */
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.stahnout-btn:hover {
+    background-color: #2980b9;
+}
